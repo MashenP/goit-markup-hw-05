@@ -613,9 +613,7 @@ h1 {
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:focus
-.modal-close-btn:hover svg,
-.modal-close-btn:focus svg {
+.modal-close-btn:focus {
     background-color: #404BBF;
     border: none;
 }
@@ -653,7 +651,7 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     margin-left: 14px;
 
 }
@@ -677,8 +675,8 @@ h1 {
     border-color: #4D5AE5;
 }
 
-.modal-input:hover .form-icon,
-.modal-input:focus .form-icon {
+.modal-input.form-icon:hover,
+.modal-input.form-icon:focus {
     fill: #4D5AE5;
 }
 
