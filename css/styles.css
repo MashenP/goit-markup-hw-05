@@ -675,8 +675,8 @@ h1 {
     border-color: #4D5AE5;
 }
 
-.modal-input.form-icon:hover,
-.modal-input.form-icon:focus {
+.modal-input:hover + .form-icon,
+.modal-input:focus + .form-icon {
     fill: #4D5AE5;
 }
 
@@ -713,6 +713,10 @@ h1 {
 .comment-area:hover,
 .comment-area:focus {
     border: 1px solid #4D5AE5;
+}
+
+.textarea {
+    margin-bottom: 16px;
 }
 
 .checkbox {
