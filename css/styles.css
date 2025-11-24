@@ -477,6 +477,10 @@ h1 {
     fill: #F4F4FD;
 }
 
+.container-social-media {
+    margin-right: 80px;
+}
+
 .container-subscribe {
     display: flex;
     flex-direction: column;
@@ -652,12 +656,11 @@ h1 {
     align-items: flex-start;
     justify-content: flex-start;
     margin-bottom: 8px;
-    margin-left: 14px;
-
 }
 
 .input-wrapper {
     position: relative;
+    width: 360px;
 }
 
 .input-wrapper svg {
